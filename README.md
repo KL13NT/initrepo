@@ -12,9 +12,9 @@ copy it, modify it however you like, the limit's the sky!
 ## Installation
 
 ```
-npm i -g initrepo
+npm i -g @kl13nt/initrepo
 # or
-yarn global add initrepo
+yarn global add @kl13nt/initrepo
 ```
 
 Why global? Because you want to run it anywhere.

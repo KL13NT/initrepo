@@ -36,7 +36,9 @@ inquirer
 				"What is the repo name? (in lowercase, keep this empty to init in cwd)",
 			default: "",
 			validate: (input) =>
-				input.trim().length === 0 ? "Please enter a valid name" : true,
+				input.trim().length === 0 && /^[ ]+$/.test(input)
+					? "Please enter a valid name"
+					: true,
 		},
 		{
 			type: "list",
