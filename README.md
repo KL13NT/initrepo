@@ -21,6 +21,11 @@ yarn global add @kl13nt/initrepo
 
 Why global? Because you want to run it anywhere.
 
+## Requirements
+
+- gpg
+- git
+
 ## Features
 
 - Choose between creating a directory for the repo or initializing in `cwd`
