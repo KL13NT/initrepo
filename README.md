@@ -9,6 +9,8 @@ configure git, and make sure everything works every time. This package makes my
 life much easier. The NPM package is just a wrapped around my script, you can
 copy it, modify it however you like, the limit's the sky!
 
+![initrepo example](https://user-images.githubusercontent.com/20807178/180826131-72ed9760-a452-411e-ab8a-e3d101937ec6.PNG)
+
 ## Installation
 
 ```
