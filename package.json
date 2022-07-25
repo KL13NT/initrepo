@@ -1,0 +1,29 @@
+{
+	"name": "@kl13nt/initrepo",
+	"version": "1.0.0",
+	"description": "A simple command line utility to help you initialize git repositories",
+	"bin": {
+		"initrepo": "main.js"
+	},
+	"type": "commonjs",
+	"files": [
+		"main.js"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/KL13NT/initrepo.git"
+	},
+	"keywords": [
+		"utility"
+	],
+	"author": "Nabil Tharwat <nabil.tharwat@outlook.com> (https://iamnabil.netlify.app)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/KL13NT/initrepo/issues"
+	},
+	"homepage": "https://github.com/KL13NT/initrepo#readme",
+	"dependencies": {
+		"inquirer": "^8.0.0"
+	},
+	"main": "main.js"
+}
