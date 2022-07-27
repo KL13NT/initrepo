@@ -33,6 +33,26 @@ Why global? Because you want to run it anywhere.
 - Specify commit author email
 - Automatically add a remote
 
+## Debugging GPG Errors
+
+#### GnuGPG is not available in the global environment
+
+If you use gpg or have it enabled through the Git Bash it will only be available
+in that environment.
+
+Make sure the package has permission to execute gpg and that it can access the keys
+in the same terminal. To confirm the keys exist in the current terminal run `gpg --list-secret-keys --keyid-format=long`.
+
+#### Keys aren't listed
+
+If you installed GnuGPG explicitly outside of Git Bash you'll be able
+to use it from any terminal, but it won't have the keys configured with Git
+Bash.
+
+To fix this make sure to configure gpg with new keys or move them by exporting
+them from Git Bash and importing them on the other executable. Google is your
+best friend on this.
+
 ## Supported Operating Systems
 
 I tested this on the latest Windows 10 build. It _should_ work on other versions
