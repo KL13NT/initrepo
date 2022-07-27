@@ -1,3 +1,7 @@
+[![npm](https://img.shields.io/npm/dt/@kl13nt/initrepo?style=plastic)](https://www.npmjs.com/package/@kl13nt/initrepo)
+[![npm (scoped)](https://img.shields.io/npm/v/@kl13nt/initrepo)](https://www.npmjs.com/package/@kl13nt/initrepo)
+[![GitHub](https://img.shields.io/github/license/kl13nt/initrepo)](https://github.com/KL13NT/initrepo/blob/master/LICENSE)
+
 ## Introduction
 
 > Hello there~ https://youtu.be/eaEMSKzqGAg
