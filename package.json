@@ -1,6 +1,6 @@
 {
 	"name": "@kl13nt/initrepo",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "A simple command line utility to help you initialize git repositories",
 	"bin": {
 		"initrepo": "main.js"
