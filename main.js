@@ -18,7 +18,7 @@ const { initRepo, createDirectory } = require("./lib/git");
 		}
 
 		await createDirectory(answers.name);
-		await initRepo(answers.email, answers.remote);
+		await initRepo(answers.user.email, answers.remote);
 
 		if (answers.user.signingKey) {
 			await configureGpg(answers.user.signingKey);
